@@ -56,15 +56,15 @@ export default function Main() {
             </div>
           </div>
           <div>
-            <div className='main-head'>
-              <div className="main-head-div" ref={organic}>
+            <div className='main-head container-fluid'>
+              <div className="main-head-div row row-xl" ref={organic}>
                 <h1>ORGANIC</h1>
               </div>
-              <div className='main-head-img1' ref={leafo} >
-                <img src={leaf} alt="leaf" />
+              <div className='main-head-img1 img-fluid' ref={leafo} >
+                <img className={'img-fluid'} src={leaf} alt="leaf" />
               </div>
-              <div className='main-head-img2' ref={cup}>
-                <img src={greentea} alt='greentea' />
+              <div className='main-head-img2 img-fluid' ref={cup}>
+                <img className={'img-fluid'} src={greentea} alt='greentea' />
               </div>
             </div>
           </div>
